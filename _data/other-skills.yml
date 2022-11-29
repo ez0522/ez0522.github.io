@@ -1,0 +1,6 @@
+- name: Adobe Photoshop
+  percentage: 60
+  color: info
+#- name: String
+#  percentage: int
+#  color: success

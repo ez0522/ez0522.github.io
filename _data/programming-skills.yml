@@ -1,0 +1,31 @@
+- name: Oracle
+  text: SQL 작성
+  src: https://cdn.cdnlogo.com/logos/o/92/oracle.svg
+
+- name: MySQL
+  text: SQL 작성
+  src: https://cdn.cdnlogo.com/logos/m/91/mysql.svg
+
+- name: Java
+  text: #객체지향에 대한 이해와 람다 활용
+  src: https://cdn.cdnlogo.com/logos/j/86/java.svg
+
+- name: Spring Boot
+  text: 프레임워크 활용 및 REST API 설계
+  src: https://cdn.cdnlogo.com/logos/s/91/spring.svg
+
+- name: jQuery
+  text: 문법 및 라이브러리 활용
+  src: https://cdn.cdnlogo.com/logos/j/44/jquery.svg
+
+- name: Linux
+  text: 기본 명령어 숙지
+  src: https://cdn.cdnlogo.com/logos/l/6/linux-tux.svg
+
+- name: SVN
+  text: 형상관리 툴 활용
+  src: https://cdn.cdnlogo.com/logos/s/97/subversion.svg
+
+- name: Git
+  text: 기본 사용법 숙지
+  src: https://cdn.cdnlogo.com/logos/g/15/git-icon.svg

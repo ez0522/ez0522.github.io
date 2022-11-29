@@ -1,0 +1,33 @@
+<style>
+  .box_wrap {
+    width: 49%;
+    margin: 16px 0px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .box { width: 50px; height: 50px; margin-right: 8px; margin-bottom: 10px; }
+</style>
+<div class="col-lg">
+
+  <h2 class="mb-3">{{ include.title }}</h2>
+
+<ul style="padding: 0;">
+  {% for skill in include.source %}
+
+  <li class="box_wrap">
+    <div class="box">
+      <img style="width:50px; height:50px; position: relative; margin: auto; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+           src="{{ skill.src }}"
+           decoding="async">
+    </div>
+    <div>
+      <h6>{{ skill.name }}</h6>
+      <p style="font-size: 12px;">{{ skill.text }} </p>
+    </div>
+  </li>
+
+  {% endfor %}
+</ul>
+
+</div>
